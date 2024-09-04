@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Kamunge | Portfolio Website</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="icon" type="image/png" sizes="100x100" href="./images/GK.png">
+    <script src="https://kit.fontawesome.com/ce2d94b0f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+</head>
+<body>
+
+<!--HOME PAGE-->
+    <header id="home">
+        <div class="navigation">
+            <p><span style="color: #89C4E1;">G</span>EORGE</p>
+            <div class="navigation-links">
+                <ul id="toggle">
+                    <i class="fa-solid fa-circle-xmark" style="color:aliceblue;" onclick="toggleClose()"></i>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" style="color:aliceblue;" onclick="toggleOpen()"></i>
+            </div>
+            <div class="connect">
+                <a href="#contact">Let's connect <i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-section">
+           <div class="wrapped">
+             <div class="text-logo">
+                <div class="text">
+                <p>Hello, </p>  <h2>I'm George Kamunge</h2> <h1 class="animate__animated animate__bounce animate__delay-2s">Web Developer / Software Engineer</h1>
+                </div>
+                <div class="image-logo">
+                    <img src="./images/Rotate.png" alt="my-logo">
+                </div>
+            </div>
+            <div class="links">
+                <a href="#contact" ><button class="button btn1">Hire Me</button></a>
+            </div>
+           </div>
+        </div>
+
+        <div class="mouse-socials">
+            <div class="mouse">
+           <p> <i class="fa-sharp fa-regular fa-computer-mouse-scrollwheel" style="color: #f5f5f5;"></i> Scroll Down To See More</p>
+            </div>
+            <div class="socials">
+                <a href="https://github.com/Ratified" target="_blank"><i class="fa-brands fa-github"></i></a> 
+                <a href="https://twitter.com/GeorgeRatified" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/george-kamunge-2a30a5233" target="_blank"><i class="fa-brands fa-linkedin-in" target="_blank"></i></a>
+            </div>
+        </div>
+    </header>
+
+<!--ABOUT ME SECTION-->
+
+    <section id="about">
+        <div class="wrapper">
+            <div class="container">
+                <h1 class="titles">ABOUT ME</h1>
+            </div>
+            <div class="about-container2">
+                <div class="about-container3">
+                    <img src="./images/george.png" class="mine" alt="My photo">
+                </div>
+                <div class="about-container4">
+                    <div class="about-description">
+                        <big>I'm George Kamunge, a Fullstack Web Developer.</big>
+                        <p>I am a high-skilled fullstack web developer with a strong grasp on both frontend and backend technologies. I am passionate  about crafting efficient, user-friendly web applications that address real-world challenges. My expertise spans HTML, CSS, JavaScript, React.js, PHP, Laravel, SQL, and MongoDB, allowing me to successfully develop projects like 1DollarCV, a dynamic online resume builder, and Diacare, a comprehensive diabetes management system.</p>
+                    </div>
+                    <div class="personal-info">
+                        <div class="name-email">
+                            <p><span class="bold">Name:</span> George Kamunge</p>
+                            <p><span class="bold">Email:</span> kamungegeorge42@gmail.com</p>
+                        </div>
+                        <div class="address-phone">
+                            <p><span class="bold">Address:</span>  Nairobi, Kenya</p>
+                            <p><span class="bold">Phone:</span> +254716980741</p>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <a href="GEORGE KAMUNGE.pdf" download="George'S-CV.pdf" ><button class="button">Download CV</button></a>
+                        <a href="#work"><button class="button">My Work</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--MY WORK-->
+
+    <section id="work">
+        <div class="container">
+            <h1 class="titles" style="text-align: center;">PROJECTS</h1>
+        </div>
+        <div class="wrapper-work">
+            <div class="work">
+                <h2>OneDollarCV</h2>
+                <img src="./images/1dollarcv.png" alt="1dollarCV Website">
+                <div class="details">
+                    <p>OneDollarCV is a platform that allows users to create and download professional CVs for just $1. The website is built using HTML, CSS, and JavaScript, with a focus on user-friendly design and functionality.</p>
+                    <div class="key-features">
+                        <h4 class="key-features-h4">Key features</h4>
+                        <ul>
+                            <li>Custom form handling with user input validation.</li>
+                            <li>PDF generation and secure download functionality.</li>
+                            <li>Responsive and user-friendly interface designed by myself.</li>
+                        </ul>
+                    </div>
+                    <div class="technologies-used">
+                        <p class="bold">Technologies Used:</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Laravel</li>
+                        </ul>
+                    </div>
+                    <a href="https://onedollarcv.com/" target="_blank"><button class="button">View Website</button></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <h2>Broadwrite</h2>
+                <img src="./images/broadwrite.png" alt="Broadwrite Work">
+                <div class="details">
+                    <p>Developed a marketing website using React.js for Broadwrite, a company dedicated to offering affordable assignment assistance to students. The website effectively communicates the company’s mission to support students in various academic areas.</p>
+                    <ul class="key-features">
+                        <h4 class="key-features-h4">Key features</h4>
+                        <li>Dynamic and responsive front-end built with React.js, ensuring a smooth and engaging user experience.</li>
+                        <li>Clear presentation of services, including coding assistance in languages like Matlab, Python, C++, and Java, as well as help with web development, Big Data, and R coding.</li>
+                        <li>Sections dedicated to additional academic support, including essays, dissertations, exams prep, and more, aligned with the company’s mission.</li>
+                    </ul>
+                    <ul class="technologies-used">
+                        <p class="bold">Technologies Used:</p>
+                        <li>React JS</li>
+                    </ul>
+                    <a href="https://www.broadwrite.com/" target="_blank" class="button">View Website</a>
+                </div>
+            </div>
+
+            <div class="work">
+                <h2>Diacare</h2>
+                <img src="./images/diacare.png" alt="Diacare">
+                <div class="details">
+                    <p>Created a comprehensive diabetes management system for my final year project, featuring multi-user roles for patients, doctors, and administrators.</p>
+                </div>
+                <ul class="key-features">
+                    <h4 class="key-features-h4">Key features</h4>
+                    <li>Multi user authentication roles </li>
+                    <li> Patient and doctor dashboards with role-based access.</li>
+                    <li>An e-commerce section for purchasing diabetes-related equipment.</li>
+                    <li>Secure User Authentication and management</li>
+                </ul>
+                <ul class="technologies-used">
+                    <p class="bold">Technologies Used: </p>
+                    <li>Laravel</li>
+                    <li>PHP</li>
+                </ul>
+                <a href="" class="button">View Website</a>
+            </div>
+
+            <div class="work">
+                <h2>Drivemenow</h2>
+                <img src="./images/drivemenow.png" alt="Drivemenow">
+                <div class="details">
+                    <p>Developed a car borrowing platform using pure vanilla PHP, allowing users to borrow cars through a streamlined process.</p>
+                </div>
+                <ul class="key-features">
+                    <h4 class="key-features-h4">Key features</h4>
+                    <li>User Registration and car listing</li>
+                    <li>Booking and borrowing management</li>
+                    <li>Simple, clean interface with efficient backend processes.</li>
+                </ul>
+                <ul class="technologies-used">
+                    <p class="bold">Technologies Used: </p>
+                    <li>PHP</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>MySQL</li>
+                </ul>
+                <a href="" class="button">View Website</a>
+            </div>
+
+            <div class="work">
+                <h2>Sunnyside Agency Landing Page</h2>
+                <img src="./images/sunnyside.png" alt="Sunnyside">
+                <div class="details">
+                    <p>Developed a landing page for Sunnyside Agency as part of a Frontend Mentor challenge. This project was aimed at testing and enhancing my page layout and CSS skills.</p>
+                </div>
+                <ul class="key-features">
+                    <h4 class="key-features-h4">Key features</h4>
+                    <li>Responsive design ensuring optimal viewing experience across devices.</li>
+                    <li>Clean and modern layout with a focus on visual hierarchy and user experience.</li>
+                    <li>Effective use of CSS for layout, typography, and visual elements to create an engaging landing page.</li>
+                </ul>
+                <ul class="technologies-used">
+                    <p class="bold">Technologies Used:</p>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+                <a href="" class="button">View Website</a>
+            </div>
+
+            <div class="work">
+                <h2>Laragigs</h2>
+                <img src="./images/laragigs.png" alt="Laragigs work">
+                <div class="details">
+                    <p>Developed a job listing platform using Laravel, allowing users to list jobs and their descriptions. This project demonstrates my ability to build full-featured applications with robust backend support.</p>
+                </div>
+                <ul class="key-features">
+                    <h4 class="key-features-h4">Key features</h4>
+                    <li>User-friendly interface for posting and managing job listings.</li>
+                    <li>Secure user authentication and job management system.</li>
+                    <li>Integration with SQL for efficient data storage and retrieval.</li>
+                </ul>
+                <ul class="technologies-used">
+                    <p class="bold">Technologies Used: </p>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Laravel</li>
+                </ul>
+                <a href="" class="button">View Website</a>
+            </div>
+        </div>
+    </section>
+
+<!--MY_SERVICES-->
+    <section id="services">
+        <div class="wrapper">
+            <div class="container">
+                <h1 class="titles" style="text-align:center;">MY SERVICES</h1>
+            </div>
+            <div class="box-containers">
+                <div class="box box1">
+                    <i class="fa-brands fa-dribbble"></i>
+                    <br>
+                    <h2 class="service-title">Custom Web Development</h2>
+                    <br>
+                    <p> I specialize in creating responsive, user-friendly websites tailored to meet your specific business needs. Whether you require a marketing website, an e-commerce platform, or a complex web application, I have the expertise in HTML, CSS, JavaScript, React.js, and Laravel to deliver a high-quality, scalable solution. My portfolio includes projects like 1DollarCV and Broadwrite, showcasing my ability to build from the ground up with a focus on both design and functionality.</p>
+                </div>
+                <div class="box box2">
+                    <i class="fa-solid fa-code"></i>
+                    <br>
+                    <h2 class="service-title">Fullstack Web Development</h2>
+                    <br>
+                    <p>With a strong foundation in both front-end and back-end technologies, I can develop comprehensive web applications that manage data efficiently and provide seamless user experiences. My experience with PHP, Laravel, SQL, and MongoDB enables me to build robust, secure systems, like the Diacare diabetes management system and Drivemenow car borrowing platform. Whether you need a custom CMS, a multi-user application, or a data-driven platform, I can bring your ideas to life.</p>
+                </div>
+                <div class="box box3">
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <br>
+                    <h2 class="service-title">SEO Optimization</h2>
+                    <br>
+                    <p>Improve your website’s performance with my optimization services. I focus on enhancing load times, ensuring mobile responsiveness, and implementing best practices for SEO and accessibility. By leveraging tools like TailwindCSS and modern JavaScript frameworks, I can fine-tune your website to ensure it performs optimally across all devices and platforms.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+<!--Freelancer-->
+    <section id="free">
+        <div class="lance">
+            <div class="freelancer">
+                <h1>I'm available</h1>
+                <h1>For Freelancer Projects</h1>
+                <p>Tell Me about your project story and brief</p>
+            </div>
+            <div class="freelancer-2">
+                <a href="#contact"><button class="button">Hire Me</button></a>
+            </div>
+        </div>
+    </section>
+
+
+<!--CONTACT ME-->
+
+<section id="contact">
+    <div class="container">
+        <h1 class="titles" style="text-align:center;">CONTACT ME</h1>
+    </div>
+
+    <div class="error">Please Fill In All Fields!</div>
+    <div class="successful">Message sent successfully.</div>
+    
+    <div class="wrapped-contact">
+        <div class="form">
+            <form id="my-form" onsubmit="return validateAndSendEmail();">
+                <div class="input-group">
+                    <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="input-group">
+                    <label for="email"><i class="fa-regular fa-envelope"></i> Your Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="input-group">
+                    <label for="message"><i class="fa-solid fa-comment"></i> Your Message</label>
+                    <textarea name="message" id="message" rows="8"></textarea>
+                </div>
+                <button type="submit" class="send">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+   
+</section>
+
+<!--Footer-->
+    <footer id="footer">
+        <div class="copyright">
+            <p>Copyright &copy; 2024 - All Rights Reserved</p>
+        </div>
+        <div class="designed">
+            <p>Designed and Developed by George Kamunge</p>
+        </div>
+    </footer>
+
+    <!-- <script src="main.js"></script> -->
+    <script>
+        function validateAndSendEmail() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+        
+            if (!name || !email || !message) {
+                alert('Please fill out all fields.');
+                return false; 
+            }
+            var subject = encodeURIComponent('Contact Form Submission from ' + name);
+            var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\nMessage:\n' + message);
+            var mailtoLink = 'mailto:kamungegeorge42@gmail.com?subject=' + subject + '&body=' + body;
+        
+            window.location.href = mailtoLink;
+        
+            return false; 
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            // GSAP animations
+        
+            // Header fade-in and slide-up animation
+            gsap.from("header", { duration: 1, opacity: 0, y: 50 });
+        
+            // Hero section text and image animation
+            gsap.from(".hero-section .text-logo", { duration: 1, opacity: 0, y: 30, stagger: 0.2 });
+            gsap.from(".hero-section .image-logo", { duration: 1, opacity: 0, scale: 0.8, ease: "back.out(1.7)" });
+        
+            // Fade-in sections on scroll
+            gsap.utils.toArray("section").forEach(section => {
+                gsap.from(section, {
+                    duration: 1,
+                    opacity: 0,
+                    y: 50,
+                    ease: "power2.out",
+                    scrollTrigger: {
+                        trigger: section,
+                        start: "top bottom",
+                        end: "bottom top",
+                        scrub: true
+                    }
+                });
+            });
+        
+            // Button hover effects
+            gsap.to(".button", {
+                duration: 0.3,
+                scale: 1.1,
+                ease: "power1.inOut",
+                paused: true,
+                repeat: -1,
+                yoyo: true,
+                onComplete: function() {
+                    gsap.to(".button", { scale: 1, ease: "power1.inOut" });
+                }
+            });
+        
+            // Mouse social icons fade-in
+            gsap.from(".mouse-socials", { duration: 1, opacity: 0, y: 30, ease: "power2.out" });
+        
+            // Footer slide-up animation
+            gsap.from("footer", { duration: 1, opacity: 0, y: 30, ease: "power2.out", delay: 1 });
+        
+            // Smooth scrolling effect
+            gsap.to("a[href^='#']", {
+                scrollTo: {
+                    y: "top",
+                    autoKill: true,
+                    offsetY: 50
+                },
+                ease: "power2.inOut",
+                duration: 1,
+                onClick: function() {
+                    this.scrollTo();
+                }
+            });
+        });
+        
+    </script>
+    
+</body>
+</html>
